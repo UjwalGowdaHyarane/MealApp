@@ -114,7 +114,7 @@ input.search-input:focus {
 
 .favourites {
   font-size: 21px;
-  color: #841c01;
+  color:rgb(252, 252, 246);
   border: none;
   background: transparent;
   cursor: pointer;
