@@ -5,12 +5,18 @@ Welcome to Meal App, your go-to application for discovering delicious and nutrit
 Features
 1. Browse Recipes
 Easily explore a wide variety of recipes categorized by cuisine, dietary preferences, and more. Find inspiration for your next culinary adventure!
+![image](https://github.com/UjwalGowdaHyarane/MealApp/assets/152984560/7a644511-b6b3-419c-9430-565bc020bc44)
+
 
 2. Recipe Details
 Get detailed information about each recipe, including ingredients,measurements & step-by-step instructions. Never be left wondering how to recreate your favorite dishes.
+![image](https://github.com/UjwalGowdaHyarane/MealApp/assets/152984560/abf564b0-d6b4-4f02-b42e-a0f60f4743fd)
 
-3. Favourite meal list
+
+4. Favourite meal list
 Make your desired meal/dish as favourite using like button provided.Check these favourites in favorites page by clicking on favorite button at top-right corner
+![image](https://github.com/UjwalGowdaHyarane/MealApp/assets/152984560/99a8f998-145c-4f6f-b061-2972e9737825)
+
 
 
 
