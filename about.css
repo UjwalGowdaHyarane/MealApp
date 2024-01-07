@@ -1,6 +1,11 @@
+html {
+  --nav-font-color: #f5c1b3;
+}
+
 .mealInfoContainer {
   margin: 60px auto;
   /* box-shadow: 1px 1px 3px 3px grey; */
+  --nav-font-color: #f5c1b3;
   gap: 100px;
   padding: 90px;
 }
@@ -55,4 +60,31 @@ h1 {
   border-radius: 20px;
   font-weight: 700;
   border: 2px solid rgb(234, 211, 10);
+}
+
+#youtube {
+  font-size: 12px;
+  text-decoration: none;
+  color: blueviolet;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  display: block;
+}
+#tag {
+  color: rgb(203, 42, 17);
+  font-size: 12px;
+  border: 1px solid red;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.categories a {
+  cursor: pointer;
+  color: var(--nav-font-color);
+  text-decoration: none;
 }

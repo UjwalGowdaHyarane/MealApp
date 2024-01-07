@@ -114,7 +114,8 @@ input.search-input:focus {
 
 .favourites {
   font-size: 21px;
-  color:rgb(252, 252, 246);
+  color: rgb(252, 252, 246);
+
   border: none;
   background: transparent;
   cursor: pointer;
@@ -151,8 +152,12 @@ input.search-input:focus {
   padding-bottom: 20px;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 6px 8px 12px 2px var(--nav-font-color);
+  box-shadow: 6px 8px 12px 5px var(--nav-font-color);
   padding-bottom: 50px;
+  transition: all 0.4s;
+}
+.meal-card:hover {
+  box-shadow: 3px 10px 15px 7px var(--nav-font-color);
 }
 
 button.like {
@@ -213,6 +218,7 @@ button.like {
 
 .home {
   cursor: pointer;
+  color: var(--nav-font-color);
 }
 
 ion-icon.icon {

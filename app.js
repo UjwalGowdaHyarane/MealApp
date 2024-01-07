@@ -19,6 +19,9 @@ function renderMeals(meals) {
     // alpha.innerText = `${meal.strMeal}`;
     // alpha.innerHTML = `${meal.strMeal}`;
     // console.log(alpha);
+    if (meal.favourite == "yes") {
+      console.log(document.getElementsByClassName(".icon md hydrated"));
+    }
 
     const div = document.createElement("div");
     div.className = "meal-card card";
@@ -85,10 +88,8 @@ function renderMeals(meals) {
     if (target.classList.contains("hydrated")) {
       // change the fill to red color indicating favourites
       let id = target.id;
-      console.log(document.getElementsByClassName("icon md hydrated"), id);
+      // console.log(document.getElementsByClassName("icon md hydrated"), id);
       target.classList.toggle("active");
-      const m = document.querySelector(".meal-card");
-      console.log(document.querySelector(".meal-card"));
 
       // add to favourite list
       if (target.className === "icon md hydrated active") {
